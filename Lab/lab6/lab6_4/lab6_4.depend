@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1513492715 source:f:\kargah\lab6\lab6_4\main.c
+	<stdio.h>
+	<stdlib.h>
+

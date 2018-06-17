@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    int x1,x2,x3,x4;
+    int y1,y2,y3,y4;
+
+    scanf("%d",&x1);
+    scanf("%d",&y1);
+    scanf("%d",&x2);
+    scanf("%d",&y2);
+    scanf("%d",&x3);
+    scanf("%d",&y3);
+    scanf("%d",&x4);
+    scanf("%d",&y4);
+
+    if ( (x1 + x3 == x2 + x4) && (y1 + y3 == y2 + y4))
+    {
+        printf("Parallelogram: true\n");
+        if ( pow((x2 - x1),2) + pow((y2 - y1),2) == pow((x3 - x2),2) + pow((y3 - y2),2) )
+        {
+            printf("Diamond: true\n");
+            if ( ((y2 - y1)/(x2 - x1)) * (y3 - y2)/(x3 - x2) == -1 )
+            {
+                printf("Square: true\n");
+            }
+            else
+            {
+                printf("Square: false\n");
+            }
+        }
+        else
+        {
+            printf("Diamond: false\n");
+            printf("Square: false\n");
+            if ( ((y2 - y1)/(x2 - x1)) * (y3 - y2)/(x3 - x2) == -1 )
+            {
+                printf("Rectangle: true\n");
+            }
+            else
+            {
+                printf("Rectangle: false\n");
+            }
+        }
+    }
+    else
+    {
+        printf("Square: false\n");
+        printf("Rectangle: false\n");
+        printf("Parallelogram: false\n");
+        printf("Diamond: false\n");
+    }
+    return 0;
+}

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1517039965 source:f:\bakhshi\final_project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<unistd.h>
+

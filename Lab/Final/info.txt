@@ -1,0 +1,6 @@
+Nasim	Safari	1362	Hamadan
+Ahmad	Karami	1370	Tabriz
+Soheil	Bayat	1366	Tehran
+Bahar	Saadat	1372	Shiraz
+Kimia	Nabavi	1368	Mashhad
+Hadi	Kusha	1374	Arak

@@ -1,0 +1,11 @@
+https://www.w3resource.com/c-programming-exercises/
+ftp://bin-login.name/pub/docs/programming_languages/c/kernighan_ritchie__c_language_task_solver__eng_2ed/index.html
+http://www.worldbestlearningcenter.com/index_files/c_tutorial_lesson.htm
+https://www.programiz.com/c-programming/examples/
+http://www.indiabix.com/c-programming/questions-and-answers/
+http://en.cppreference.com/w/c
+http://c-faq.com/
+http://ceit.aut.ac.ir/~bakhshis/c/codeblocks-16.01mingw-setup.exe
+http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.pdf
+http://ceit.aut.ac.ir/~bakhshis/c/C%20Language%20Summary.zip
+http://ceit.aut.ac.ir/~bakhshis/c/C%20Summary%20(Midterm).pdf

@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+    double n , m ;
+    printf("enter (m) and (n) so that they are between 0 and 1 and also notice that m<n:\n");
+    scanf("%lf",&m);
+    scanf("%lf",&n);
+
+    time_t t = time(NULL);
+    srand(t);
+
+    double random1 = rand();
+    double random2 = rand();
+    double random3 = rand();
+    double random4 = rand();
+
+    random1 = (( random1 / (double)RAND_MAX)*(n-m)) + m;
+    random2 = (( random2 / (double)RAND_MAX)*(n-m)) + m;
+    random3 = (( random3 / (double)RAND_MAX)*(n-m)) + m;
+    random4 = (( random4 / (double)RAND_MAX)*(n-m)) + m;
+
+    printf("random1= %lf\n" , random1 );
+    printf("random2= %lf\n" , random2 );
+    printf("random3= %lf\n" , random3 );
+    printf("random4= %lf" , random4 );
+
+    return 0;
+}

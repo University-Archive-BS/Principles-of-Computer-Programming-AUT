@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int x;
+    printf("enter the side of the square:");
+    scanf("%d",&x);
+
+    double mohit , masahat , Ghotr ,Mohati , Mohiti;
+
+    mohit = 4 * x;
+    masahat = x * x;
+    Ghotr = pow(2 , 0.5) * x;
+    Mohati = ( 3.14 ) * (pow(((double)x/2) , 2));
+    Mohiti = 2 * ( 3.14 ) * ((pow(2,0.5) * x) / 2);
+
+    printf("Perimeter: %.2lf\n", mohit);
+    printf("Area: %.2lf\n", masahat);
+    printf("Diameter: %.2lf\n", Ghotr);
+    printf("Inside Circle: %.2lf\n", Mohati);
+    printf("Outside Circle: %.2lf", Mohiti);
+
+
+    return 0;
+}

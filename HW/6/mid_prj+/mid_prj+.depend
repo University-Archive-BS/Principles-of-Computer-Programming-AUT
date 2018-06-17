@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1513664309 source:f:\bakhshi\mid_prj+\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<unistd.h>
+
+1517040530 source:f:\bakhshi\6\mid_prj+\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<unistd.h>
+

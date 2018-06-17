@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1513514082 source:f:\bakhshi\mid_project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<unistd.h>
+
